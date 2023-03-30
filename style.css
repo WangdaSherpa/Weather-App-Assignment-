@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    background-color: #000;
 }
 
 .container {
@@ -12,11 +13,12 @@
     color: #fff;
     padding: 2rem;
     width: 40%;
-    margin: 4rem auto;
+    margin: 1.5rem auto;
     border-radius: 10px;
 }
 
 .weather_header {
+    background: #2B3467;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,6 +39,7 @@ input::placeholder {
 
 .weather_search {
     position: relative;
+    background: #2B3467;
 }
 
 .weather_search i{
@@ -48,6 +51,7 @@ input::placeholder {
 }
 
 .weather_units {
+    background: #2B3467;
     font: 1.5rem;
     display: inline-block;
     margin-left: 1.5rem;
@@ -55,48 +59,68 @@ input::placeholder {
 
 .weather_units span {
     cursor: pointer;
+    background: #2B3467;
 }
 
 .weather_units span:first-child {
     margin-right: 0.5rem;
 }
 
+.weather_city {
+    background: #2B3467;
+}
+
 .weather_body {
+    background: #2B3467;
     text-align: center;
     margin-top: 3rem;
 }
 
 .weather_datetime {
+    background: #2B3467;
     margin-bottom: 2rem;
     font-size: 14px;
 }
 
 .weather_forecast {
-    background: #1e1e1e;
+    background: #2B3467;
     display: inline-block;
     padding: 0.5rem 1rem;
     border-radius: 30px;
 }
 
+.weather_forecast p {
+    background: #2B3467;
+}
+
+.weather_icon {
+    background: #2B3467;
+}
+
 .weather_icon img {
+    background: #2B3467;
     width: 100px;
 }
 
 .weather_temperature {
+    background: #2B3467;
     font-size: 1.75rem;
 }
 
 .weather_minmax {
+    background: #2B3467;
     display: flex;
     justify-content: center;
 }
 
 .weather_minmax p {
+    background: #2B3467;
     font-size: 14px;
     margin: 0.5rem;
 }
 
 .weather_info {
+    background: #2B3467;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
@@ -112,10 +136,12 @@ input::placeholder {
 }
 
 .weather_card i {
+    background: #1e1e1e;
     font-size: 1.5rem;
     margin-right: 1rem;
 }
 
 .weather_card p {
+    background: #1e1e1e;
     font-size: 14px;
 }
